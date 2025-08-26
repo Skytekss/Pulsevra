@@ -19,6 +19,7 @@ final class NetworkMaganer {
     case heroes = "/heroes"
     case heroItemsPopularity = "/heroes/{hero_id}/itemPopularity"
     case heroStats = "/heroStats"
+    case proMatches = "/proMatches"
     
   }
   

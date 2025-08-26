@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AAD8ACAA2E5D553900AA2D9A /* ProMatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8ACA92E5D553900AA2D9A /* ProMatches.swift */; };
+		AAD8ACAE2E5D557900AA2D9A /* ProMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8ACAD2E5D557900AA2D9A /* ProMatch.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AAD8AC862E5495DA00AA2D9A /* Pulsevra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulsevra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD8ACA92E5D553900AA2D9A /* ProMatches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProMatches.swift; path = Pulsevra/Models/ProMatches.swift; sourceTree = "<group>"; };
+		AAD8ACAD2E5D557900AA2D9A /* ProMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProMatch.swift; path = Pulsevra/Models/ProMatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		AAD8AC7D2E5495DA00AA2D9A = {
 			isa = PBXGroup;
 			children = (
+				AAD8ACA92E5D553900AA2D9A /* ProMatches.swift */,
+				AAD8ACAD2E5D557900AA2D9A /* ProMatch.swift */,
 				AAD8AC882E5495DA00AA2D9A /* Pulsevra */,
 				AAD8AC872E5495DA00AA2D9A /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD8ACAE2E5D557900AA2D9A /* ProMatch.swift in Sources */,
+				AAD8ACAA2E5D553900AA2D9A /* ProMatches.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
